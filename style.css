@@ -1,0 +1,93 @@
+:root {
+	--primary: #e50914;
+}
+* {
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+	 }
+
+body {
+	color: white;
+	background-color: black;
+	position: relative;
+}
+
+body h1 {
+	font-size: 50px;
+}
+body h2 {
+	font-size: 26px;
+}
+
+body a {
+	text-decoration: none;
+	color: white;
+}
+body header {
+	padding: 20px 0 0 0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 8px 56px 0 56px;
+}
+.container span svg {
+	width: 134px;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+.menu a {
+	padding: 7px 17px;
+	border-radius: 4px;
+	background-color: var(--primary);
+}
+.menu div {
+	background-color: rgba(0, 0, 0, .04);
+	border: 1px solid #aaa;
+	padding: 8px 22px;
+	border-radius: 4px;
+}
+.hero-container{
+	padding: 70px 45px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.bg-gradient {
+	background-color: rgba(0,0,0,.4);
+	background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.hero-text {
+	max-width: 950px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 75px 0;
+	z-index: 1;
+	position: relative;
+}
+
+.hero-text h2 {
+	margin: 16px 0;
+}
+.hero-background {
+	z-index: 0;
+	position: absolute;
+	left: 0;
+	overflow: hidden;
+}
+.hero-background img {
+	object-fit: cover;
+	width: 100%;
+}
