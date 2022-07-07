@@ -69,6 +69,7 @@ body header {
 	border: 1px solid #aaa;
 	padding: 8px 22px;
 	border-radius: 4px;
+	cursor: pointer;
 }
 
 .hero-container {
@@ -138,6 +139,7 @@ body header {
 	background-color: var(--primary);
 	padding: 14px 30px;
 	font-size: 26px;
+	cursor: pointer;
 }
 
 .hero-container .input {
